@@ -215,7 +215,7 @@ p {
 }
 
 /* Mobile Devices */
-@media (min-width: 320px) and (max-width: 990px) {
+@media screen and (max-width: 1000px) {
   #title {
     text-align: center;
   }
