@@ -214,7 +214,32 @@ p {
   margin: 20px 10px;
 }
 
-@media (max-width: 1028px) {
+/* Mobile Devices */
+@media (max-width: 320px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Tablets */
+@media (max-width: 481px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Small Screens, Laptops */
+@media (max-width: 1024px) {
   #title {
     text-align: center;
   }
