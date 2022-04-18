@@ -1,4 +1,4 @@
-# TinDog Website
+# TinDog Landing Page
 
 Meet new and interesting dogs nearby.
 
