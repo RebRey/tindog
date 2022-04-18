@@ -224,4 +224,12 @@ p {
     position: static;
     transform: rotate(0);
   }
+
+  .big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
 }
