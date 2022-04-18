@@ -21,18 +21,18 @@ p {
 
 /* HEADINGS*/
 
-/* big heading used for title, and price sections  */
+/* big heading used for title, and price heading  */
 .big-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.5;
   padding: 50px 0px
 }
 
 /* section heading used for price, and call to action */
 .section-heading {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
@@ -138,7 +138,7 @@ p {
 }
 
 .testimonial-img {
-  width: 145px;
+  width: 80px;
   border-radius: 100%;
   margin: 20px;
 }
@@ -161,7 +161,7 @@ p {
 }
 
 .pricing-text {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.5;
 }
 
@@ -170,6 +170,7 @@ p {
 }
 
 .pricing-tier-name {
+  font-size: 1.5rem;
   margin: 0;
 }
 
