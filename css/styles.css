@@ -215,31 +215,7 @@ p {
 }
 
 /* Mobile Devices */
-@media (max-width: 320px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-img {
-    position: static;
-    transform: rotate(0);
-  }
-}
-
-/* Tablets */
-@media (max-width: 481px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-img {
-    position: static;
-    transform: rotate(0);
-  }
-}
-
-/* Small Screens, Laptops */
-@media (max-width: 1024px) {
+@media (min-width: 320px) and (max-width: 990px) {
   #title {
     text-align: center;
   }
