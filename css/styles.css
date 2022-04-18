@@ -16,19 +16,23 @@ h6 {
 
 p {
   color: #8f8f8f;
+  font-size: 1.1rem;
 }
 
 /* HEADINGS*/
 
+/* big heading used for title, and price sections  */
 .big-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
+  padding: 50px 0px
 }
 
+/* section heading used for price, and call to action */
 .section-heading {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
@@ -112,10 +116,6 @@ p {
   position: relative;
 }
 
-.feature-title {
-  font-size: 1.5rem;
-}
-
 .feature-box {
   text-align: center;
   padding: 4.5%;
@@ -137,13 +137,8 @@ p {
   text-align: center;
 }
 
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
 .testimonial-img {
-  width: 10%;
+  width: 145px;
   border-radius: 100%;
   margin: 20px;
 }
@@ -155,7 +150,7 @@ p {
 }
 
 .press-logo-img {
-  width: 15%;
+  width: 150px;
   padding: 20px 20px 50px;
 }
 
@@ -177,12 +172,6 @@ p {
 .pricing-tier-name {
   margin: 0;
 }
-
-.pricing-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
 
 .pricing-btn {
   margin-bottom: 20px;
@@ -223,23 +212,6 @@ p {
   .title-img {
     position: static;
     transform: rotate(0);
-  }
-
-  .big-heading {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    font-size: 2rem;
-    line-height: 1.5;
-  }
-
-  .testimonial-text {
-    font-size: 2rem;
-    line-height: 1.5;
-  }
-
-  .press-logo-img {
-    width: 25%;
-    padding: 20px 20px 50px;
   }
 
 }
