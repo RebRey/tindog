@@ -1,17 +1,24 @@
+/* ELEMENT SELECTORS */
+
 body {
   font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
 
 p {
   color: #8f8f8f;
 }
 
-/* Headings*/
+/* HEADINGS*/
 
 .big-heading {
   font-family: "Montserrat", sans-serif;
@@ -25,16 +32,27 @@ p {
   line-height: 1.5;
 }
 
-#title {
+/* CONTAINERS */
+
+/* Container fluid used for nav bar, features, testimonials (carousel items), call to action, and footer sections  */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+
+/* accent style for title, testimonials, press, and call to action sections */
+.accent-section {
   background-color: #ff4c68;
   color: #fff;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
+/* plain style for features, pricing, and footer sections */
+.plain-section {
+  background-color: #fff;
 }
 
-/* Navigation Bar */
+/* NAVIGATION BAR */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -55,7 +73,7 @@ p {
   font-weight: 100;
 }
 
-/* Download Buttons */
+/* DOWNLOAD BUTTONS */
 .download-button {
   margin: 5% 3% 5% 0%;
 }
@@ -64,12 +82,19 @@ p {
   color: #ff4c68;
 }
 
-/* Title Image */
-/* combining selectors */
+/* TITLE SECTION */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* combining selectors to add padding */
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
 
+/* Title Image */
 /* In bootstrap 5, the col classes don't have position: relative;. So you have to add it manually to the col div by adding a custom class */
 .position-fix {
   position: relative;
@@ -84,9 +109,11 @@ p {
 
 /* Features */
 #features {
-  background-color: #fff;
-  padding: 7% 15%;
   position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
 }
 
 .feature-box {
@@ -103,16 +130,16 @@ p {
   color: #ff4c68;
 }
 
-.feature-title {
-    font-size: 1.5rem;
-  }
-
-/* Testimonials */
+/* TESTIMONIALS SECTION */
 
 #testimonials {
-  color: #fff;
   background-color: #ef8172;
   text-align: center;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-img {
@@ -121,16 +148,6 @@ p {
   margin: 20px;
 }
 
-.testimonial-text {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.carousel-item {
-  padding: 7% 13%;
-}
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -142,10 +159,19 @@ p {
   padding: 20px 20px 50px;
 }
 
-/* Pricing Section */
+/* PRICING SECTION */
 #pricing {
   padding: 100px;
   text-align: center;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
 
 .pricing-tier-name {
@@ -157,14 +183,6 @@ p {
   line-height: 1.5;
 }
 
-.pricing-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.pricing-column {
-  padding: 3% 2%;
-}
 
 .pricing-btn {
   margin-bottom: 20px;
@@ -177,10 +195,7 @@ p {
 /*Call to Action*/
 
 #cta {
-  background-color: #ff4c68;
-  color: #fff;
   text-align: center;
-  padding: 7% 15%;
 }
 
 .cta-header {
@@ -192,10 +207,7 @@ p {
 /* Footer */
 
 #footer {
-  font-family: "Montserrat", sans-serif;
-  background-color: #fff;
   text-align: center;
-  padding: 4% 15% 1% 15%;
 }
 
 .social-icon {
