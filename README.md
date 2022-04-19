@@ -2,7 +2,7 @@
 
 Meet new and interesting dogs nearby.
 
-You can view the site here [Click Me](https://rebrey.github.io/tindog-landing-page/) 
+You can view the site here [Click Me](https://rebrey.github.io/tindog/) 
 
 ## Background
 ### What is Bootstrap?
